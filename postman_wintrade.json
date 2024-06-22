@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "81c509a1-c2b0-4c78-9dc7-93a3dc641ce2",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14710828"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/wintrade",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/totozxz/Work/test-poj/wintrade_test/input_random2.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/wintrade",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"wintrade"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
